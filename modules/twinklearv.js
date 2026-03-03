@@ -57,7 +57,8 @@ Twinkle.arv.callback = function (uid, isIP, isTA) {
 		type: 'select',
 		name: 'category',
 		label: 'Selecteer type melding: ',
-		event: Twinkle.arv.callback.changeCategory
+		event: Twinkle.arv.callback.changeCategory,
+		value: isTA || isIP ? 'tablok' : 'regblok'
 	});
 	categories.append({
 		type: 'option',
