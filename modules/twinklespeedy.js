@@ -612,7 +612,7 @@ Twinkle.speedy.normalizeHash = {
 
 Twinkle.speedy.templateReason = {
 	leeg: 'Lege pagina',
-	onzin: 'Geen zinvolle inhoud',
+	onzin: 'Onzin',
 	vertaling: 'Niet-Nederlandstalig of resultaat van een computervertaling',
 	zelfpromotie: 'Overduidelijke zelfpromotie',
 	cyberpesten: 'Cyberpesten',
