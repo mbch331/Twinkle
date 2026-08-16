@@ -49,7 +49,7 @@ server.listen(port, hostname, async () => {
 	}
 	let mwn, user;
 	try {
-		mwn = require('mwn').mwn;
+		mwn = require('mwn').Mwn;
 	} catch (_) {
 		return console.error("Failed to load mwn. Please run `npm install` and retry.");
 	}
