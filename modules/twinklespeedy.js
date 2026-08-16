@@ -466,7 +466,7 @@ Twinkle.speedy.generalList = [
 
 	},
 	{
-		label: 'Pagina met inhoud zonder zinvolle informatie.',
+		label: 'Onzin',
 		value: 'onzin',
 		tooltip: 'Wees er zeker van dat het volstrekte onzin is. Als er ook maar de geringste twijfel bestaat, is het beter de pagina te nomineren via TBx.',
 		hideInNamespaces: [ 2 ] // Not applicable in userspace
@@ -612,7 +612,7 @@ Twinkle.speedy.normalizeHash = {
 
 Twinkle.speedy.templateReason = {
 	leeg: 'Lege pagina',
-	onzin: 'Onzin',
+	onzin: 'Geen zinvolle inhoud',
 	vertaling: 'Niet-Nederlandstalig of resultaat van een computervertaling',
 	zelfpromotie: 'Overduidelijke zelfpromotie',
 	cyberpesten: 'Cyberpesten',
